@@ -1,0 +1,47 @@
+@import './_variables.scss';
+.bgSection {
+	margin: 0px;
+	-moz-background-size: 100%;
+	-webkit-background-size: 100%;
+	-o-background-size: 100%;
+	background-size: 100%;
+	height: auto;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-image: url($bgImage);
+}
+
+.img_custom {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.title {
+	font-family: Roboto Condensed;
+	font-size: 42px;
+	font-weight: 700;
+	line-height: 49px;
+	letter-spacing: 0em;
+	text-align: center;
+	color: #fff;
+}
+
+.subtitle {
+	color: #fff;
+	text-align: center;
+	font-family: Roboto;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+.section_text {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	line-height: normal;
+}
